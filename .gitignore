@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Satellite imagery (large files)
+data/sample/*.tif
+data/sample/*.jp2
+data/sample/*.img
+data/sample/**/*.tif
+data/sample/**/*.jp2
+!data/sample/README.md
+
+# Model checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+
+# Generated outputs (keep .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

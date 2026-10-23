@@ -1,0 +1,22 @@
+# GeoPulse-ThermalAI — Sample Dataset Configuration
+# -------------------------------------------------
+# Update these paths to point to your Sentinel-2 Level-2A band files.
+# Paths can be absolute or relative to the repository root.
+#
+# Required bands:
+#   B03 — Green (10 m resolution)
+#   B04 — Red (10 m resolution)
+#   B08 — Near-Infrared (10 m resolution)
+#   SCL — Scene Classification Layer (20 m resolution, categorical)
+#
+# Example (Linux):
+#   B03: data/sample/T43QDA_20231015T053701_B03_10m.jp2
+#   B04: data/sample/T43QDA_20231015T053701_B04_10m.jp2
+#   B08: data/sample/T43QDA_20231015T053701_B08_10m.jp2
+#   SCL: data/sample/T43QDA_20231015T053701_SCL_20m.jp2
+
+bands:
+  B03: data/sample/S2B_43REQ_20231024_B03.tif
+  B04: data/sample/S2B_43REQ_20231024_B04.tif
+  B08: data/sample/S2B_43REQ_20231024_B08.tif
+  SCL: data/sample/S2B_43REQ_20231024_SCL.tif
